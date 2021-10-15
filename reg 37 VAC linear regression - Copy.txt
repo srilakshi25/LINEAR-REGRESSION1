@@ -1,0 +1,15 @@
+x_new = sm.add_constant(np.arange(10).reshape((-1, 2)))
+
+print(x_new)
+
+[[1. 0. 1.]
+ [1. 2. 3.]
+ [1. 4. 5.]
+ [1. 6. 7.]
+ [1. 8. 9.]]
+
+>>> y_new = results.predict(x_new)
+
+ print(y_new)
+
+[ 5.77760476  7.18179502  8.58598528  9.99017554 11.3943658 ]
